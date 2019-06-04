@@ -25,6 +25,25 @@ A visualização dos dados foi feita no PowerBI(hhbres-asma.pbix), onde foram cr
 * Casos de Asma separando por Faixa Etária e Estação do Ano.
 * Relação de custo por Faixa Etária, por Estação do Ano e por Mês.
 * Relação de custo médio por Faixa Etária, por Estação do Ano e por Mês.
+* Distribuição dos casos na região sudeste.
+
+## Apresentação dos dados
+
+### Casos de asma por temperatura média
+![alt text](https://github.com/rafaeldsouza/hhbres-controle-asma/blob/master/imagens/casos%20por%20temperatura.jpg "Casos de asma por temperatura média")
+
+### Casos de Asma separando por Faixa Etária e Estação do Ano
+![alt text](https://github.com/rafaeldsouza/hhbres-controle-asma/blob/master/imagens/por%20idade.jpg "Casos de Asma separando por Faixa Etária e Estação do Ano")
+
+### Relação de custo por Faixa Etária, por Estação do Ano e por Mês.
+![alt text](https://github.com/rafaeldsouza/hhbres-controle-asma/blob/master/imagens/custo%20total.jpg "Relação de custo por Faixa Etária, por Estação do Ano e por Mês.")
+
+### Relação de custo médio por Faixa Etária, por Estação do Ano e por Mês.
+![alt text](https://github.com/rafaeldsouza/hhbres-controle-asma/blob/master/imagens/custo%20medio.jpg "Relação de custo médio por Faixa Etária, por Estação do Ano e por Mês.")
+
+### Distribuição dos casos na região sudeste.
+![alt text](https://github.com/rafaeldsouza/hhbres-controle-asma/blob/master/imagens/mapa.png "Distribuição dos casos na região sudeste.")
+
 
 # Potencial do Código
 
