@@ -6,7 +6,7 @@ Gerar dados sobre o real impacto da asma na saúde pública do Brasil, uma vez q
 
 # Abordagem
 
-Para esse desafio fizemos um extraimos os casos de asma (CID-J45) da base de dados [SIH](http://www2.datasus.gov.br/DATASUS/index.php?area=0901&item=1&acao=25) com o clima obtido da base [INMET](http://www.inmet.gov.br/portal/index.php?r=bdmep/bdmep), com o intuito de fazer um paraledo dos casos de asma com as mudanças climaticas.
+Para esse desafio fizemos uma extração dos casos de asma (CID-J45) da base de dados [SIH](http://www2.datasus.gov.br/DATASUS/index.php?area=0901&item=1&acao=25) com o clima obtido da base [INMET](http://www.inmet.gov.br/portal/index.php?r=bdmep/bdmep), com o intuito de fazer um paraledo dos casos de asma com as mudanças climaticas.
 
 # Tratamento dos dados
 
