@@ -4,4 +4,29 @@ No Controle da Asma, o 1° Datathon em Saúde da GSK Brazil acontecerá de 17 de
 # Sobre o desafio
 Gerar dados sobre o real impacto da asma na saúde pública do Brasil, uma vez que faltam dados sobre o cenário da asma do país na perspectiva de diagnóstico, internação, custos, mortalidade, fatores estruturais, sociais e ambientais.
 
-# Equipe hhbres-controle-asma
+# Abordagem
+
+Para esse desafio fizemos um paralelo entre os casos de asma (CID-J45) da base de dados [SIH](http://www2.datasus.gov.br/DATASUS/index.php?area=0901&item=1&acao=25) com o clima obtido da base [INMET](http://www.inmet.gov.br/portal/index.php?r=bdmep/bdmep), com o intuito de fazer um paraledo dos casos de asma com as mudanças climaticas.
+
+# Trastamento dos dados
+
+Um dos grandes desafios que tivemos foi o tratamento dos dados. Iniciamos fazendo o filtro dos dados baixados do DATASUS utilizando o TabWin que está disponivel junto com os dataset. Após selecionar os dados da região sudeste e filtrar pelo CID J45 exportamos em o arquivo CVS Dados/SIH-Sudeste/sih2008-2019.cvs.
+
+Analisando os dados do SIH, percebemos que a unica forma de juntar os dados com a base de clima seria transformando o CEP do paciente em Latitude e Longitudo, e para isso usamos a [API Geocoding do Google](https://developers.google.com/maps/documentation/geocoding/start). Ao fazer a busca no Geocoding usando o CEP alguns CEPs não foram encontrados e para auxiliar, e assim trazer mais confianças aos dados, foi utilizado uma api que usa a base dos Correios ([PyCep-correios](https://pypi.org/project/pycep-correios/)) e com o endereço completo buscamos novamente os dados no Geocoding. Alguns CEPs estavam invalidos ou são de outras regiões diferentes, esses dados foram descartados.
+
+Após obter a Latitude e Longitude baseado nos CEP dos pacientes, foi feito o cruzamento dos dados com a base de clima, e para isso, foi feito utilizado o algoritimo de **Haversine** e utilizado a estação de coleta de Clima mais proximo.
+
+# Visualização dos dados
+
+A visualização dos dados foi feita no PowerBI(hhbres-asma.pbix), onde foram criados as seguintes visões:
+* Caso de Asma por temperatura média.
+* Casos de Asma separando por Faixa Etária e Estação do Ano.
+* Relação de custo por Faixa Etária, por Estação do Ano e por Mês.
+* Relação de custo médio por Faixa Etária, por Estação do Ano e por Mês.
+
+# Equipe HHBRES - Controle Asma
+[Matheus Silva Santos](https://github.com/matheusses)
+
+[Rafael de Souza Conceição](https://github.com/rafaeldsouza)
+
+[Willer Fiorotti](https://github.com/WillerFiorott)
