@@ -28,7 +28,7 @@ A visualização dos dados foi feita no PowerBI(hhbres-asma.pbix), onde foram cr
 * Distribuição dos casos na região sudeste.
 
 ## Apresentação dos dados
-
+[Painel publicado](https://app.powerbi.com/view?r=eyJrIjoiNDY3ODJkNzctNWIwNi00ZDZjLThkMjgtYWRiOWZmMWJiYmY3IiwidCI6ImNiOTk1MDM4LWIxZGYtNGViYy04YTc4LTg4YjViYjUxNmE1YiIsImMiOjl9)
 ### Casos de asma por temperatura média
 ![alt text](https://github.com/rafaeldsouza/hhbres-controle-asma/blob/master/imagens/casos%20por%20temperatura.jpg "Casos de asma por temperatura média")
 
