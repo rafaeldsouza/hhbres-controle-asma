@@ -26,6 +26,12 @@ A visualização dos dados foi feita no PowerBI(hhbres-asma.pbix), onde foram cr
 * Relação de custo por Faixa Etária, por Estação do Ano e por Mês.
 * Relação de custo médio por Faixa Etária, por Estação do Ano e por Mês.
 
+# Potencial do Código
+
+Enxergamos um potencial preditivo eficaz com o código apresentado, devido a mineração e tratamento dos dados ter sido feita de forma parcimoniosa e supervisionada, com o cruzamento de dados, em especial da temperatura, meses, e número de casos, que corroboram com o esperado das literaturas.
+
+Devido a isso, esse código tem potencial preditivo no que tange a estimar quantos casos ocorrerão em um dado mês, com determinada temperatura. Além disso, com os dados de custo, enxergamos potencial em ele estimar o quanto será gasto com a asma em certa estação ou período do ano e futuras atualizações, acreditamos que ele consiga estimar o quão benéfica será determinada intervenção para o problema da asma, tanto em relação a redução de casos, quanto na diminuição dos custos.
+
 # Equipe HHBRES - Controle Asma
 [Matheus Silva Santos](https://github.com/matheusses)
 
